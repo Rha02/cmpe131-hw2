@@ -1,0 +1,5 @@
+1) increment_int_a does not change the variable after the function call
+2) increment_int_b changes the variable after the function call
+3) it differs because when an integer is sent as a paremeter, the integer value is copied and the function increments 
+    this integer value in its scope. When a list is sent as a paremeter, not a copy but an actual reference to the
+    list, with which the list can be changed.
